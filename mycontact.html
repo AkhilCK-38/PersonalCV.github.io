@@ -1,0 +1,79 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>MY CONTACTS</title>
+        </head>
+        <body>
+            <h3>My Personal Details</h3>
+            <ol>
+                <li> <strong>Adress</strong>: M B nagar near shiva mandir circle kalaburagi</li>
+                <li> <strong>Mobile number</strong>: 8951106840</li>
+                <li> <strong>Email</strong>: akhilmass38@gmail.com </li>
+            </ol>
+            <hr>
+            <h3>I would love to hear your details</h3>
+            
+                <!--The action attribute specifies where to send the form-data when a form is submitted.-->
+                <form action="mailto:akhilmass38@gmail.com" method="POST" enctype="text/plain"> <!--enctype will render the mail with plain text instead of showing all the % symbols and all-->
+                    <label>YOUR NAME:</label>
+                    <input type="text" name="your name"> <br><br>
+                    <label>YOUR CONTACT NUMBER:</label>
+                        <input type="number" name="mobilenumber"> <br>
+                        <p>ENTER THE SEX</p>
+                        <input type="checkbox" >
+                        <label for="checkbox">male</label>
+                        
+                        <input type="checkbox" name="female">
+                        <label for="checkbox">female</label><br>
+                        <label for="">this is the color picker just for fun:</label>
+                        <input type="color"><br>
+                        <label for="">enter todays date:</label>
+                        <input type="date"><br>
+                        <label for="">enter the time for appoitment</label>
+                        <input type="datetime-local" value="2021-04-19T19:30"><br> 
+                        <label for="">Enter your email adress</label>
+                        <input type="email"><br>
+                        <label for="">select the file to upload</label>
+        <input type="file">
+
+
+        <input type="image"><br>
+        <label for="">Enter the month of your birthday</label>
+        <input type="month"><br>
+        <label for="">enter the password u want to set</label>
+        <input type="password"><br>
+        <p>are you above 20</p>
+        <label for="">yes</label>
+        <input type="radio">
+        <label for="">No</label>
+        <input type="radio"><br>
+        <label for="">Enter the range of the think u like</label>
+        <input type="range"><br>
+
+        <input type="time" >
+        <small>Office hours are 9am to 6pm</small><br>
+        <label for="which week u like the most"></label>
+        <input type="week"><br><br>
+        <label for="">Your Message</label><br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+        
+
+                        <input type="button" value="SUBMIT" >
+
+
+                </form>
+            
+            
+            
+                
+
+
+        
+
+
+            
+        </body>
+        </html>
